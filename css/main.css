@@ -1678,14 +1678,19 @@ p { color: #333;}
     }
     .story .swiper-slide .story-txt {
         gap: 6px;
-        padding: 4% 6%;
+        padding: 5.5% 6.5%;
         height: 100%;
     }
     .story .swiper-slide .story-txt h3 {
         font-size: 15px;
     }
     .story .swiper-slide .story-txt p {
-        width: 85%;
+        width: 70%;
+        white-space: normal;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
     .story .swiper-slide .story-txt a {
         width: 90px;
@@ -1697,9 +1702,10 @@ p { color: #333;}
     }
     .subscribe .email-wrap #email {
         width: 100%;
+        padding-left: 4%;
     }
     .subscribe .email-wrap #email::placeholder {
-        font-size: 13px;
+        font-size: 11px;
     }
     .subscribe .email-wrap button {
         width: 275px;
