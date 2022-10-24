@@ -6,7 +6,9 @@
 ul {list-style: none;}
 a {text-decoration: none; color: #333;}
 p { color: #333;}
-
+video::-webkit-media-controls-play-button {
+    display: none;
+}
 /* common */
 .btn, 
 .btn::after {
@@ -870,6 +872,7 @@ p { color: #333;}
 }
 .story .swiper-slide {
     position: relative;
+    cursor: pointer;
 }
 .story .swiper-slide::after {
     content: "";
@@ -1503,7 +1506,7 @@ p { color: #333;}
     }
     .main .main-content {
         left: 0;
-        top: 55%;
+        top: 60%;
         width: 100%;
         text-align: center;
         padding: 0 35px;
@@ -1708,7 +1711,7 @@ p { color: #333;}
         font-size: 11px;
     }
     .subscribe .email-wrap button {
-        width: 275px;
+        width: 230px;
         font-size: 14px;
     }
     .footer .footer-wrap {
